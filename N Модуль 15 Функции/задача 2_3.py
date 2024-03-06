@@ -5,3 +5,6 @@ def count_args(*args):
 def sq_sum(*args):
     lst = [i**2 for i in args]
     return sum(lst)
+
+
+"And she said He-He"
