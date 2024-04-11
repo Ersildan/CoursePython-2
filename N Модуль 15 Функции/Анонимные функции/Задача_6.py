@@ -1,0 +1,1 @@
+is_num = lambda lol: lol.replace('-','').replace('.','').isdigit() if lol.count('-') != 2 and lol.count('.') != 2 and '-' not in lol[1:] else False
